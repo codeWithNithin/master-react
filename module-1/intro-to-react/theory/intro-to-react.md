@@ -25,3 +25,11 @@
 - You describe what you want to see, not how to build it.
 - React handles the DOM updates automatically.
 - Makes code predictable and easier to debug
+- in imperative approach, we would have to write whole logic all over again. and its very difficult to maintain and test as well using Vanilla JS.
+
+# Single page application
+
+- Loads only 1 HTML page and updates dynamically using JS.
+- No Full page reload on navigation.
+- React Router is used to handle routing.
+- Results in Faster and smoother user experience.
