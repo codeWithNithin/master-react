@@ -24,8 +24,8 @@
 
 - You describe what you want to see, not how to build it.
 - React handles the DOM updates automatically.
-- Makes code predictable and easier to debug
-- in imperative approach, we would have to write whole logic all over again. and its very difficult to maintain and test as well using Vanilla JS.
+- Makes code predictable and easier to debug.
+- In imperative approach, we would have to write whole logic all over again. and its very difficult to maintain and test as well using Vanilla JS.
 
 # Single page application
 
@@ -33,3 +33,9 @@
 - No Full page reload on navigation.
 - React Router is used to handle routing.
 - Results in Faster and smoother user experience.
+
+# Summary of intro to react
+
+- React is a library for building modern UIs.
+- Its component based and follows declarative UI approach.
+- Its a single page application.
