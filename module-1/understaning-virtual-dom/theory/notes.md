@@ -13,3 +13,17 @@
 - Diffing: React compares the newly created virtual DOM with the old one to identify changes.
 - Reconciliation: React calculates the most efficient way to update the real DOM.
 - update: only the neccassary parts of the real DOM where updated.
+
+
+### Benifits of using Virtual DOM
+
+- Improves the perfomance optimization. Reduces the number of real dom manipulation leading to faster ui updates.
+- Efficient updates: updates only that part of component that is changed.
+- simplifies the process of building dynamic UIs.
+
+### Why is Reconcilliation is important?
+
+- Whenever the state or props changes, re-rendering the whole DOM would  be slow.
+- React uses Virtual DOM for this 
+- uses before rendering version and after rendering verison
+- find the differences using diff algorithm.
